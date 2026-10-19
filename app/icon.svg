@@ -1,0 +1,38 @@
+<svg viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="65%">
+      <stop offset="0%" stop-color="#141109" />
+      <stop offset="55%" stop-color="#070707" />
+      <stop offset="100%" stop-color="#020202" />
+    </radialGradient>
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE79C" />
+      <stop offset="28%" stop-color="#D4AF37" />
+      <stop offset="55%" stop-color="#7A5813" />
+      <stop offset="80%" stop-color="#E6C35C" />
+      <stop offset="100%" stop-color="#6E4E0E" />
+    </linearGradient>
+    <linearGradient id="gold" x1="15%" y1="5%" x2="85%" y2="95%">
+      <stop offset="0%" stop-color="#FFF2B2" />
+      <stop offset="18%" stop-color="#F3CA52" />
+      <stop offset="42%" stop-color="#D4A528" />
+      <stop offset="68%" stop-color="#9C6F10" />
+      <stop offset="85%" stop-color="#E5BC46" />
+      <stop offset="100%" stop-color="#785208" />
+    </linearGradient>
+    <linearGradient id="bright" x1="0%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="25%" stop-color="#FFE885" />
+      <stop offset="65%" stop-color="#D8A628" />
+      <stop offset="100%" stop-color="#8F630B" />
+    </linearGradient>
+  </defs>
+  <rect x="18" y="18" width="476" height="476" rx="96" fill="url(#bg)" stroke="url(#border)" stroke-width="8" />
+  <g transform="translate(0, 36) scale(1.04)">
+    <line x1="136" y1="108" x2="136" y2="245" stroke="url(#gold)" stroke-width="3" stroke-opacity="0.6" />
+    <path d="M 135 66 H 258 C 338 66, 386 116, 386 192 C 386 268, 338 318, 258 318 H 135 V 276 L 184 232 V 280 H 254 C 312 280, 344 245, 344 192 C 344 139, 312 104, 254 104 H 135 Z" fill="url(#gold)" stroke="url(#bright)" stroke-width="2" />
+    <path d="M 184 282 V 195 C 184 176, 170 162, 152 156 L 156 168 L 132 148 L 162 135 L 157 146 C 172 151, 181 160, 185 172 V 136 H 171 L 193 103 L 215 136 H 201 V 174 C 206 161, 217 151, 232 146 L 227 135 L 257 148 L 233 168 L 237 156 C 217 163, 202 178, 202 198 V 282 Z" fill="url(#gold)" stroke="url(#bright)" stroke-width="1.5" />
+    <path d="M 282 106 C 296 115, 303 132, 301 148 C 300 155, 305 162, 312 173 C 314 177, 311 181, 305 183 C 308 187, 310 191, 306 194 C 309 197, 307 202, 302 204 C 305 210, 303 219, 294 222 C 281 226, 265 220, 250 212 L 214 268" fill="none" stroke="url(#bright)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 294 274 C 291 258, 293 245, 300 236 C 295 231, 296 224, 304 222 C 312 220, 319 225, 323 234 C 327 244, 330 256, 326 272" fill="none" stroke="url(#bright)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

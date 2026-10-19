@@ -1,0 +1,6 @@
+{
+  "name": "Dilemna Ai",
+  "description": "Explore life's crossroads with clarity, comfort, and peace of mind. Uncover trade-offs, reveal what fate has in store, and discover your destined path.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

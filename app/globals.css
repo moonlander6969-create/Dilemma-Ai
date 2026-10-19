@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+::selection {
+  background-color: #00ff66;
+  color: #090a0d;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0f14;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #272a33;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00ff66;
+}
+
+@media print {
+  @page {
+    margin: 15mm;
+    size: auto;
+  }
+
+  body {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+    font-size: 11pt;
+  }
+
+  /* Hide navigation, interactive actions, and modals during printing */
+  header,
+  footer,
+  .no-print,
+  button,
+  form,
+  .print-hide {
+    display: none !important;
+  }
+
+  /* Force printable elements to high contrast black on white */
+  .printable-report {
+    display: block !important;
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+    box-shadow: none !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .print-page-break-avoid {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
